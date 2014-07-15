@@ -5,28 +5,255 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
+		<div class="mainDiv">
+			<header>
+				<image src="images/logo.png" />
+				<input class="pullright" type="search" name="searchSite" placeholder="Search">
 
-		<header>
-			<image src="images/logo.png" />
-			<input class="pullright" type="search" name="searchSite" placeholder="Search">
+				<div class="pullright rightHeader" >
+					<ul id="socialMediaList" class= "pullleft">
+						<li><a href="#" id="youtubeLink"></a></li>
+						<li><a href="#" id="fbLink"></a></li>
+						<li><a href="#" id="linkedinLink"></a></li>
+						<li><a href="#" id="twitterLink"></a></li>
+					</ul>
+					<nav id="miniNav" class="pullright">
+						<a href="#">ALUMNI</a> |
+						<a href="#">LIBRARY</a> |
+						<a href="#">PARTNERSHIPS</a> |
+						<a href="#">OPPORTUNITIES</a>
+					</nav>
+				</div>
+			</header>
 
-			<div class="pullright rightHeader" >
-				<ul id="socialMediaList" class= "pullleft">
-					<li><a href="#" id="youtubeLink"></a></li>
-					<li><a href="#" id="fbLink"></a></li>
-					<li><a href="#" id="linkedinLink"></a></li>
-					<li><a href="#" id="twitterLink"></a></li>
+			<!-- Nav menu with dropdown -->
+			<nav id="navMenu">
+				<ul>
+					<li><a href="#">ABOUT IIMB</a></li>
+						<ul>
+							<li><a href="#">LIFE@IIMB</a></li>
+							<li><a href="#">AWARDS & RECOGNITION</a></li>
+							<li><a href="#">PROMINENT PARTNERS/STAKEHOLDERS TESTIMONIALS</a></li>
+							<li><a href="#">MEDIA ROOM</a></li>
+							<li><a href="#">AFFIRMATIVE ACTION</a></li>
+							<li><a href="#">GENDER SENSITIVE COMMITTEE</a></li>
+							<li><a href="#">BOARD OF GOVERNORS</a></li>
+						</ul>
+					<li><a href="#">ADMISSIONS</a></li>
+					<li><a href="#">EXECUTIVE EDUCATION</a></li>
+					<li><a href="#">FACULTY AND RESEARCH</a></li>
+					<li><a href="#">CENTER OF EXCELLENCE</a></li>
 				</ul>
-				<nav id="miniNav" class="pullright">
-					<a href="#">ALUMNI</a> |
-					<a href="#">LIBRARY</a> |
-					<a href="#">PARTNERSHIPS</a> |
-					<a href="#">OPPORTUNITIES</a>
-				</nav>
+			</nav>
+
+			<div class="fullwidth">
+				
+				<!-- News Section -->
+				<section class="grid">
+					<div class="gridHeader">
+						<h3 class="gridHeading">News</h3>
+						<div class="hline pullleft"></div>
+					</div>
+					<image class="pullleft" src="images/News_icon.png"/>
+					<label class="dateLabel">November 7 2010</label>
+					<br>
+					<label class="details">
+						Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro...
+					</label>
+					<hr>
+					<image class="pullleft" src="images/News_icon.png"/>
+					<label class="dateLabel">November 7 2010</label>
+					<br>
+					<label class="details">
+						Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro...
+					</label>
+					<div class="pullright"> 
+						<image class="pullleft viewIcon" src="images/News_Viewall.png"/>
+						<a class="viewAllLink" href="#">View All News</a>
+					</div>
+
+				</section>
+				
+				<!-- Events Section -->
+				<section class="grid">
+					<div class="gridHeader">
+						<h3 class="gridHeading">Events</h3>
+						<div class="hline pullleft"></div>
+					</div>
+					<image class="pullleft" src="images/Events_icon.png"/>
+					<label class="dateLabel">November 7 2010</label>
+					<br>
+					<label class="details">
+						Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro...
+					</label>
+					<hr>
+					<image class="pullleft" src="images/Events_icon.png"/>
+					<label class="dateLabel">November 7 2010</label>
+					<br>
+					<label class="details">
+						Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro...
+					</label>
+					<div class="pullright"> 
+						<image class="pullleft viewIcon" src="images/Events_Viewall.png"/>
+						<a class="viewAllLink" href="#">View All News</a>
+					</div>
+				</section>
+				
+				<!-- Features Section -->
+				<section class="grid">
+					<div class="gridHeader">
+						<h3 class="gridHeading">Features</h3>
+						<div class="hline pullleft"></div>
+					</div>
+					<image class="pullleft" src="images/Features_icon.png"/>
+					<label class="dateLabel">November 7 2010</label>
+					<br>
+					<label class="details">
+						Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro...
+					</label>
+					<hr>
+					<image class="pullleft" src="images/Features_icon.png"/>
+					<label class="dateLabel">November 7 2010</label>
+					<br>
+					<label class="details">
+						Lorem ipsum ex vix illud nonummy, novum tation et his. At vix scripta patrioque scribentur, at pro...
+					</label>
+					<div class="pullright"> 
+						<image class="pullleft viewIcon" src="images/Features_Viewall.png"/>
+						<a class="viewAllLink" href="#">View All News</a>
+					</div>
+				</section>
 			</div>
-		</header>
 
-		
+			<div class="fullwidth">
+				<!-- Alerts -->
+				<section class="bluebox"> 
+					<image class="pullleft blueboxIcon" src="images/alert_ico.png"/>
+					<h3 class="blueboxHeading">Alerts</h3>
+					<div class="innerBluebox">
+						<label class="blueboxDateLabel">November 7 2010</label>
+						<div class="description">
+							Call for Papers: 9th Annual International Conference on Public Policy and Management
+						</div>
+					</div>	
+					<div class="innerBluebox">
+						<label class="blueboxDateLabel">December 25 2010</label>
+						<div class="description">
+							Fourth Bienniel Supply Chain Management Conference from Dec 18-19, 2014
+						</div>
+					</div>	
+				</section>
 
+				<!-- Testimonial Videos -->
+				<section class="interBluebox"> 
+					<image class="pullleft blueboxIcon" src="images/testimonials_ico.png"/>
+					<h3 class="blueboxHeading">Testimonial Videos</h3>
+					<div class="innerBluebox2">
+						<label class="blueboxInnerHeading">PM 2014 - Admission Offers</label>
+						<div class="description">
+							Call for Papers: 9th Annual International Conference on Public Policy and Management
+						</div>
+					</div>	
+					<div class="innerBluebox2">
+						<label class="blueboxInnerHeading">PGP (Overseas) 2014-16: Offer List </label>
+						<div class="description">
+							Fourth Bienniel Supply Chain Management Conference from Dec 18-19, 2014
+						</div>
+					</div>	
+				</section>
+
+				<!-- Learning & Workshop  -->
+				<section class="bluebox"> 
+					<image class="pullleft blueboxIcon" src="images/learnworkshop_ico.png"/>
+					<h3 class="blueboxHeading">Learning & Workshop</h3>
+					<div class="innerBluebox">
+						<label class="blueboxInnerHeading">Faculty Positions- General</label>
+						<div class="description">
+							Call for Papers: 9th Annual International Conference on Public Policy and Management
+						</div>
+					</div>	
+					<div class="innerBluebox">
+						<label class="blueboxInnerHeading">Faculty Positions- Area Specific</label>
+						<div class="description">
+							Fourth Bienniel Supply Chain Management Conference from Dec 18-19, 2014
+						</div>
+					</div>	
+				</section>
+			</div>
+			
+			<div class="fullwidth">
+				
+				<section class="yellowSection">
+					<label class="largeHeading pullleft">Prospective Students</label>
+					<image class="bottomImage" src="images/Prospective_students.png"/>
+				</section>
+				<section class="orangeSection">
+					<label class="largeHeading pullleft">Publications</label>
+					<image class="bottomImage" src="images/Publications.png"/>
+				</section>
+				<section class="blueSection">
+					<label class="largeHeading pullleft">Media Room</label>
+					<image class="bottomImage" src="images/Media_Room.png"/>
+				</section>
+
+			</div>
+		</div>
+		<footer>
+			<div class="mainDiv">
+				<section class="footerSection">
+					<label class="footerHeading">About Us</label>
+					<div>
+					</br>
+						<label class="footerDecription">
+							A 100-acre oasis in South Bangalore, the Indian Institute of Management Bangalore (IIMB), with its all-stone architecture...
+						</label>
+					</div>
+					<label class="viewAllLink">Readmore...</label>
+				</section>
+				<section class="footerSection2">
+					<label class="footerHeading">Other Links</label>
+					<ul class="footerUl">
+						<li class="footerDecription">Publications</li>
+						<li class="footerDecription">Media Room</li>
+						<li class="footerDecription">Multimedia</li>
+						<li class="footerDecription">Related Links</li>
+						<li class="footerDecription">Alumni</li>
+						<li class="footerDecription">Faculty</li>
+					</ul>
+				</section>
+				<section class="footerSection">
+					<label class="footerHeading">Connect with us</label>
+					<div>
+						</br>
+						<label class="footerDecription2">
+							We're on Social Networks. Follow us & get in touch. 
+						</label>
+					</div>
+				</section>
+				<section class="footerSection3">
+					<label class="footerHeading">Contact Us</label> </br> </br>
+					<label class="footerHeading2">Indian Institue of Management Bangalore</label> </br>
+					<label class="footerDecription">
+						Bonnerghatta Road, Bangalore, India </br>
+						Pin Code: 560 076 </br>
+						Phone Number: +91-80-26582450 / 26992996 </br>
+						Email: info@iimb.ernet.in...
+					</label>
+				</section>
+			</div>
+			<div class="fullwidth footerBottom">
+				<div class="mainDiv">
+					<label class="pullleft">
+						&copy; Copyright 2014 IIMB, All Rights Reserved.
+					</label>
+					<div class="pullright">
+						<label class="bottomText">About Us</label>
+						<label class="bottomText">Delivery & Returns</label>
+						<label class="bottomText">Terms & Conditions</label>
+						<label class="bottomText">Contact Us</label>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html> 

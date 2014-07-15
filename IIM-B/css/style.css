@@ -5,8 +5,49 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'CalibriBold';
+	src: url('../fonts/calibri/calibrib.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
-body {
+@font-face {
+	font-family: 'CalibriItalic';
+	src: url('../fonts/calibri/calibrii.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeorgiaItalic';
+	src: url('../fonts/Georgia/georgiai.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GeorgiaBoldItalic';
+	src: url('../fonts/Georgia/georgiaz.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLight';
+	src: url('../fonts/Helvetica/HelveticaNeueLight.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueBold';
+	src: url('../fonts/Helvetica/helvetica-neue-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.mainDiv {
 	margin: 0 auto;
 	width: 80%;
 }
@@ -16,7 +57,14 @@ header {
 	margin-top: 10px;
 }
 
+footer {
+	background-color: #4d4d4d; 
+	width:100%;
+	d
+}
+
 input[type="search"] {
+	background: url('../images/search_icon.png') no-repeat 95%;
 	margin: 5 auto;
 	border-radius: 10px;
 	outline: none; 
@@ -26,6 +74,15 @@ input[type="search"] {
 	padding: 5px; 
     -webkit-appearance: none; 
     -webkit-border-radius:10px;
+}
+
+image {
+	vertical-align: middle;
+}
+
+hr{
+	border-top:1px dotted #ccc;
+	width: 100%;
 }
 
 .pullright {
@@ -98,4 +155,276 @@ color: #686868;
 
 #twitterLink:hover {
 	background-position: -98px -30px;
+}
+
+.fullwidth {
+	margin: 0 5px;
+	width: 100%;
+	display: table;
+}
+
+.hline { 
+	background-color: #ededed;
+    height: 8px;
+    position: absolute;
+    top: 17px;
+    width: 100%;
+    z-index: -1;
+}
+
+.grid {
+	display: inline-table;
+	float: left;
+	margin: 8px;
+	padding: 0 4px;
+	width: 31%;
+}
+
+.gridHeading {
+	background-color: #fff;
+	color: #191b1b;
+	display:inline;
+	font-family: 'CalibriBold';
+	font-size: 27px;
+	padding-right: 10px;
+
+}
+
+.gridHeader {
+	position: relative;
+}
+
+#navMenu {
+	width: 100%;
+}
+
+#navMenu ul ul {
+	display: none;
+}
+
+#navMenu ul li:hover > ul {
+	display: block;
+}
+
+#navMenu ul {
+	background-image: url('../images/topmenu_bg.png');
+	background-repeat: repeat-x;
+	background-size: 100% 100%;
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	width: 100%;
+}
+
+#navMenu ul:after {
+	content: ""; clear: both; display: block;
+}
+
+#navMenu ul li {
+	float: left;
+}
+#navMenu ul li:hover {
+	background: #4b545f;
+}
+#navMenu ul li:hover a {
+	color: #fff;
+}
+
+#navMenu ul li a {
+	border-right: 1px solid grey;
+    color: #fff;
+    display: block;
+    font-family: "Calibri";
+    font-size: 16px;
+    padding: 25px 16px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.dateLabel {
+	color: #888888;
+	font-family: "GeorgiaItalic";
+	font-size: 14px;
+}
+
+.details {
+	font-family: "CalibriItalic";
+	font-size: 15px;
+	color: #555555;
+	width: 90%;
+}
+
+.viewAllLink {
+	color: #ff6c00;
+	font-family: "CalibriItalic";
+	font-size: 14px;
+
+}
+
+.viewIcon {
+	margin-top: 6px;
+}
+
+.bluebox {
+	background-color: #0f9fff;
+	border-radius: 6px;
+	display: inline-table;
+	float: left;
+	margin: 0 8px;
+	padding: 5px 4px;
+	width: 31%;
+}
+
+.interBluebox {
+	background-color: #077af5;
+	border-radius: 6px;
+	display: inline-table;
+	float: left;
+	margin: 0 8px;
+	padding: 5px 4px;
+	width: 31%;
+}
+
+.blueboxHeading {
+	color: #fff;
+	font-family: "Calibri";
+	font-size: 27px;
+	vertical-align: middle;
+}
+
+.blueboxIcon {
+	margin: 30px 10px;
+}
+
+.innerBluebox {
+	background-color: #0097e8;
+	margin: 5px auto;
+	width: 90%;
+	padding: 10px 10px;
+}
+
+.innerBluebox2 {
+	background-color: #0099ff;
+	margin: 5px auto;
+	width: 90%;
+	padding: 10px 10px;
+}
+
+.blueboxDateLabel {
+	color: #fcfee9;
+	font-family: "GeorgiaBoldItalic";
+	font-size: 14px;
+
+}
+
+.description {
+	color: #fff;
+	font-family: "HelveticaNeueLight";
+	font-size: 12px;
+}
+
+.blueboxInnerHeading {
+	color: #c0e8ff;
+	font-family: "helvetica-neue-bold";
+	font-size: 13px;
+}
+
+.largeHeading {
+	color: #fff;
+	font-family: "CalibriBold";
+	font-size: 36px;
+	padding: 10px;
+	width: 50%;
+}
+
+.bottomImage {
+	position: absolute;
+	top: -40px;
+	right: 5px;
+}
+
+.yellowSection {
+	background-color: #ff9500;
+}
+
+.blueSection {
+	background-color: #00b8e6;
+}
+
+.yellowSection, .orangeSection, .blueSection {
+	display: table-cell;
+	border-radius: 6px;
+	float: left;
+	margin: 60px 8px;
+	padding: 5px 4px;
+	position: relative;
+	width: 31%;
+}
+
+.orangeSection {
+	background-color: #d43c00;
+	padding: 27px 0;
+}
+
+.footerSection{
+	display: inline-table;
+	margin: 1%;
+	padding: 1% 0;
+	width: 23%;
+}
+
+.footerSection2 {
+	display: inline-table;
+	margin: 1%;
+	padding: 1% 0;
+	width: 15%;
+}
+
+.footerSection3 {
+	display: inline-table;
+	margin: 1%;
+	padding: 1% 0;
+	width: 27%;
+}
+
+.footerHeading {
+	color: #fff;
+	font-family: "CalibriBold";
+	font-size: 18px;
+}
+
+.footerDecription {
+	color: #fff;
+	font-family: "CalibriItalic";
+	font-size: 15px;
+}
+
+.footerUl{
+	padding: 10px;
+}
+
+.footerDecription2 {
+	color: #fff;
+	font-family: "Calibri";
+	font-size: 15px;
+}
+
+.footerHeading2 {
+	color: #fff;
+	font-family: "CalibriBold";
+	font-size: 16px;
+}
+
+.footerBottom {
+	background-color: #171717;
+	color: #fff;
+	font-family: "Calibri";
+	font-size: 13px;
+	margin: 10px 0;
+	padding: 20px 0;
+}
+
+.bottomText {
+	padding: 0 5px;
 }

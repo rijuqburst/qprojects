@@ -52,9 +52,14 @@
 	width: 80%;
 }
 
+body {
+	margin: 0;
+}
+
 header {
-	width: 100%;
+	float: left;
 	margin-top: 10px;
+	width: 100%;
 }
 
 footer {
@@ -91,6 +96,11 @@ hr{
 
 .pullleft {
 	float: left;
+}
+
+.headerBottomRight {
+	clear: both; 
+	margin-top: 20px;
 }
 
 #socialMediaList li {
@@ -237,7 +247,7 @@ color: #686868;
     display: block;
     font-family: "Calibri";
     font-size: 16px;
-    padding: 25px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     vertical-align: middle;
 }
